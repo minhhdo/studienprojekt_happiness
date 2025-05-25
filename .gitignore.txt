@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# DataSpell Projektdateien
+.idea/
+*.iml
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment Files
+.env
+.venv/
+venv/
+env/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Output files
+*.log
+*.out
+
+# CSV, DTA, SAV und andere große Datendateien im NotInUse-Ordner ignorieren
+Psycho_DataspellProjekt/data/NotInUse/*
+Psycho_DataspellProjekt/data/NotInUse/**/*.csv
+Psycho_DataspellProjekt/data/NotInUse/**/*.sav
+Psycho_DataspellProjekt/data/NotInUse/**/*.dta
+Psycho_DataspellProjekt/data/NotInUse/**/*.tab
+
+# Optional: Alle CSVs überall ignorieren (falls du keine rohen Daten hochladen willst)
+*.csv
+*.dta
+*.tab
+*.sav
+Psycho_DataspellProjekt/data/NotInUse/
+
+# Optional: Nur große CSVs ignorieren (manuell wählen)
+
+# Ignore model artifacts (z.B. trainierte Modelle)
+*.pkl
+*.joblib
+
+# Ignore temporary analysis files
+*.tmp
+*.bak
+*.swp
