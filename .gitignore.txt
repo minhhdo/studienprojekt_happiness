@@ -48,3 +48,6 @@ Psycho_DataspellProjekt/data/NotInUse/
 *.tmp
 *.bak
 *.swp
+
+# Docs
+#docs/

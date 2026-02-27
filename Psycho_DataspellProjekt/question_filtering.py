@@ -311,7 +311,7 @@ def loose_question_filtering(input_dataframe):
     filtered_df['Direct contact with parents'] = filtered_df['Direct contact with parents'].fillna(6)
 
     # Fill Q: Direct contact with neighbours
-    # Reason: All empty rows are filled with 5-Never
+    # Reason: All empty rows are filled with 5-NA
     filtered_df['Direct contact with neighbours'] = filtered_df['Direct contact with neighbours'].fillna(5)
 
     # Fill Q: Phone/internet contact with children
@@ -333,7 +333,7 @@ def loose_question_filtering(input_dataframe):
         'Phone/internet contact with other relatives'].fillna(6)
 
     # Fill Q: Phone/internet contact with neighbours
-    # Reason: All empty rows are filled with 5-Never
+    # Reason: All empty rows are filled with 5-NA
     filtered_df['Phone/internet contact with neighbours'] = filtered_df[
         'Phone/internet contact with neighbours'].fillna(5)
 

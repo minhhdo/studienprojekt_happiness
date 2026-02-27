@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97eb417a-1c31-4318-af70-bca5792e4a01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anmeldung zum Studienprojekt_JH.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Outline Psychology.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Outline Psychology.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Psycho_DataspellProjekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Psycho_DataspellProjekt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/DoWhy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/SEM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_RegressionPLOT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_RegressionPLOT.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVR/Support_Vector_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SVR/Support_Vector_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVR/svr_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVR/svr_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoost/XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/XGBoost/XGBoost.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoost/xgboost_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/XGBoost/xgboost_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question_filtering.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_filtering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quellen/Ryff, C D (1989) Happiness is everything, or is it  Explorations on the meaning of psychological well-being.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quellen/WHO Report 24.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eqls_2011.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eqls_concordance_grid.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eqls_concordance_grid_bearbeitbar.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eqls_concordance_grid_bearbeitbar.xlsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="35eM76J4Dct015kFhb07WzqSLGG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Minh/Desktop/Psycho Arbeit/Psycho_DataspellProjekt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt" />
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\RandomForestRegression\Results" />
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\RandomForestRegression" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PY-252.23892.515" />
+        <option value="bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97eb417a-1c31-4318-af70-bca5792e4a01" name="Changes" comment="" />
+      <created>1763465913958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763465913958</updated>
+      <workItem from="1763466515190" duration="177000" />
+      <workItem from="1763466702161" duration="6114000" />
+      <workItem from="1763546431531" duration="9478000" />
+      <workItem from="1764685607444" duration="49000" />
+      <workItem from="1765450615109" duration="3854000" />
+      <workItem from="1765810733602" duration="6779000" />
+      <workItem from="1765966946916" duration="1115000" />
+      <workItem from="1767701368972" duration="4335000" />
+      <workItem from="1767866534953" duration="3565000" />
+      <workItem from="1768485745218" duration="1847000" />
+      <workItem from="1768487616535" duration="3516000" />
+      <workItem from="1768492838514" duration="927000" />
+      <workItem from="1768834868056" duration="2858000" />
+      <workItem from="1769076460648" duration="2780000" />
+      <workItem from="1770036653503" duration="3003000" />
+      <workItem from="1771883473271" duration="656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

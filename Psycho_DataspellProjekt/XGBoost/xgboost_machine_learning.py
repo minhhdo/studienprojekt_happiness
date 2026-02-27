@@ -21,8 +21,7 @@ def train_xgb_model(X_train, y_train,
                     colsample_bytree=0.8,
                     random_state=42):
     """
-    Trains a standard XGBoost regression model.
-    Parameters can be modified for experiments.
+    Trains a XGBoost regression model.
     """
     model = XGBRegressor(
         n_estimators=n_estimators,
@@ -48,7 +47,7 @@ def evaluate_model(model, X_test, y_test):
 
 def calculate_shap(model, X_sample, number_of_rows, number_of_head):
     """
-    Calculates SHAP values using TreeExplainer (works perfectly for XGBoost).
+    Calculates SHAP values using TreeExplainer.
     """
     explainer = shap.TreeExplainer(model)
 
@@ -93,7 +92,7 @@ def run_xgb_gridsearch_and_shap(df, target_column, test_size=0.2,
                                 random_state=42, cv_folds=3,
                                 shap_rows=1000, number_header_rows=30):
     """
-    GridSearchCV for XGBoost Regression (compact).
+    GridSearchCV for XGBoost Regression.
     """
     X_train, X_test, y_train, y_test = prepare_data(df, target_column, test_size, random_state)
 
