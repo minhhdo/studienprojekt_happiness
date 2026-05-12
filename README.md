@@ -1,16 +1,16 @@
 # Master Thesis: Predicting and Explaining Happiness with Machine Learning and Causal Inference
 
-This repository contains the code and analysis for my master thesis on the prediction and explanation of happiness using data from the European Quality of Life Survey (EQLS) 2011.
+This repository contains the code and data used for my master thesis on the prediction and explanation of happiness using data from the European Quality of Life Survey (EQLS) 2011.
 
-The project combines machine learning, SHAP-based model interpretation, and causal inference with DoWhy. The main goal is to identify relevant predictors of happiness and compare them with findings from psychological research on subjective well-being.
+The project combines machine learning, SHAP-based model interpretation, and causal inference with DoWhy. The main goal is to identify relevant predictors of happiness and compare them with psychological research on subjective well-being.
 
 ## Project Overview
 
-The analysis focuses on the survey item:
+The analysis focuses on the EQLS survey item:
 
 > How happy are you?
 
-This variable is used as the target variable. The predictors include health, financial conditions, social relationships, autonomy, meaning in life, trust, and other variables from the EQLS dataset.
+This variable is used as the target variable. Predictors include health, financial conditions, social relationships, autonomy, meaning in life, trust, and other variables from the EQLS dataset.
 
 The project follows three main steps:
 
@@ -20,13 +20,11 @@ The project follows three main steps:
 
 ## Data
 
-The analysis is based on the European Quality of Life Survey 2011.
-
-The raw data are not included in this repository because of data access restrictions. The dataset can be obtained from the official data provider.
+The repository contains the raw and preprocessed EQLS data.
 
 Main preprocessing steps include:
 
-- selection of relevant variables
+- filtering relevant survey questions
 - removal of variables with high missingness
 - listwise deletion of remaining missing cases
 - encoding of categorical variables
@@ -34,11 +32,11 @@ Main preprocessing steps include:
   - with satisfaction-related items
   - without satisfaction-related items
 
-The second variant was used to reduce conceptual overlap between predictors and the happiness outcome.
+The dataset without satisfaction-related items was used as the main basis for the SHAP and DoWhy analyses. This was done to reduce conceptual overlap between predictors and the happiness outcome.
 
 ## Models
 
-Three machine learning models were trained and compared:
+Three machine learning models were trained:
 
 - Random Forest Regression
 - Support Vector Regression
@@ -58,7 +56,7 @@ Model performance was evaluated using:
 
 SHAP values were used to interpret the machine learning models.
 
-The SHAP analysis identifies which variables contributed most strongly to the model predictions. The main focus is on stable predictor categories across models rather than on individual model-specific rankings.
+The SHAP analysis identifies which variables contributed most strongly to the model predictions. The focus is on the most relevant predictors and broader predictor categories, rather than only on individual model rankings.
 
 Important predictor categories include:
 
@@ -95,3 +93,28 @@ Subgroup analyses were conducted for:
 
 The subgroup analyses used the same treatment variables and confounder sets as the overall DoWhy analysis. This was done to keep the estimated effects comparable across groups.
 
+## Repository Structure
+
+```text
+.
+├── Causal/                         # DoWhy causal analysis notebooks and results
+│   └── Results/                    # ATE tables and refutation test results
+│
+├── Data/                           # Raw and preprocessed EQLS data
+│
+├── Random Forest Regression/       # Random Forest notebook and results
+│   └── Results/                    # Model performance and SHAP outputs
+│
+├── SVR/                            # Support Vector Regression notebook and results
+│   └── Results/                    # Model performance and SHAP outputs
+│
+├── XGBoost/                        # XGBoost notebook and results
+│   └── Results/                    # Model performance and SHAP outputs
+│
+├── Subgroup/                       # Subgroup analysis notebooks
+│   └── Results/                    # Subgroup-specific results
+│
+├── Preprocessing.ipynb             # Data preprocessing workflow
+├── question_filtering.py           # Script for filtering relevant survey questions
+├── requirements.txt                # Python dependencies
+└── README.md
