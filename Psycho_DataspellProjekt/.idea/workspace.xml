@@ -5,28 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97eb417a-1c31-4318-af70-bca5792e4a01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Anmeldung zum Studienprojekt_JH.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Outline Psychology.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Outline Psychology.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Psycho_DataspellProjekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Psycho_DataspellProjekt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CausalAnalysis/DoWhy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CausalAnalysis/SEM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_age.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_age.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_country.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_country.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_gender.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_gender.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_income.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CausalAnalysis/Causal_analysis_income.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_Regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_RegressionPLOT.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/Random_Forest_RegressionPLOT.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegression/Results/shap_results_1B.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/Results/shap_results_1B.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegression/Results/shap_results_1B_optimized.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/Results/shap_results_1B_optimized.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegression/random_forest_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForestRegression/random_forest_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVR/Results/shap_results_1B_opzimized.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SVR/Results/shap_results_1B_opzimized.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SVR/Support_Vector_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SVR/Support_Vector_Regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SVR/svr_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVR/svr_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubgroupAnalysis/country_subgroup_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SubgroupAnalysis/country_subgroup_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubgroupAnalysis/gender_subgroup_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SubgroupAnalysis/gender_subgroup_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubgroupAnalysis/income_subgroup_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SubgroupAnalysis/income_subgroup_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XGBoost/Results/shap_results_1B_opzimized.csv" beforeDir="false" afterPath="$PROJECT_DIR$/XGBoost/Results/shap_results_1B_opzimized.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XGBoost/XGBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/XGBoost/XGBoost.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XGBoost/xgboost_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/XGBoost/xgboost_machine_learning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pre_processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processing.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question_filtering.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_filtering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quellen/Ryff, C D (1989) Happiness is everything, or is it  Explorations on the meaning of psychological well-being.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quellen/WHO Report 24.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eqls_2011.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eqls_concordance_grid.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eqls_concordance_grid_bearbeitbar.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eqls_concordance_grid_bearbeitbar.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +59,23 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Minh/Desktop/Psycho Arbeit/Psycho_DataspellProjekt&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Minh/Desktop/Psycho Arbeit/Psycho_DataspellProjekt/RandomForestRegression/Results&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\RandomForestRegression\Results" />
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\RandomForestRegression" />
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\CausalAnalysis" />
+      <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\SubgroupAnalysis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt" />
       <recent name="C:\Users\Minh\Desktop\Psycho Arbeit\Psycho_DataspellProjekt\RandomForestRegression\Results" />
@@ -107,6 +113,36 @@
       <workItem from="1769076460648" duration="2780000" />
       <workItem from="1770036653503" duration="3003000" />
       <workItem from="1771883473271" duration="656000" />
+      <workItem from="1773413289631" duration="701000" />
+      <workItem from="1773673618363" duration="1000" />
+      <workItem from="1773678902077" duration="4435000" />
+      <workItem from="1773746872111" duration="6175000" />
+      <workItem from="1773837096213" duration="8356000" />
+      <workItem from="1774364780275" duration="9719000" />
+      <workItem from="1774442597802" duration="10415000" />
+      <workItem from="1774525930484" duration="2497000" />
+      <workItem from="1774621216326" duration="6893000" />
+      <workItem from="1774880825139" duration="8234000" />
+      <workItem from="1775132043679" duration="2830000" />
+      <workItem from="1775228019427" duration="2864000" />
+      <workItem from="1775394385755" duration="1305000" />
+      <workItem from="1775717907655" duration="295000" />
+      <workItem from="1776695986708" duration="3237000" />
+      <workItem from="1777729217241" duration="1881000" />
+      <workItem from="1777737182795" duration="24000" />
+      <workItem from="1777905695365" duration="6154000" />
+      <workItem from="1778069840431" duration="9044000" />
+      <workItem from="1778154752931" duration="4727000" />
+      <workItem from="1778238946886" duration="3126000" />
+      <workItem from="1778415969249" duration="2078000" />
+      <workItem from="1778588301362" duration="4379000" />
+      <workItem from="1778673073292" duration="1030000" />
+      <workItem from="1778758175552" duration="635000" />
+      <workItem from="1778844112136" duration="37000" />
+      <workItem from="1779024774153" duration="601000" />
+      <workItem from="1779108572950" duration="128000" />
+      <workItem from="1780143205941" duration="3988000" />
+      <workItem from="1780320369121" duration="1386000" />
     </task>
     <servers />
   </component>

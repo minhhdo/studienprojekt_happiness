@@ -41,8 +41,8 @@ def evaluate_model(model, scaler, X_test, y_test):
     rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     r2 = r2_score(y_test, y_pred)
 
-    print(f"✅ RMSE: {rmse:.4f}")
-    print(f"✅ R²: {r2:.4f}")
+    print(f" RMSE: {rmse:.4f}")
+    print(f" R²: {r2:.4f}")
 
     return rmse, r2
 
@@ -50,7 +50,7 @@ def calculate_shap_svr(model, scaler, X_sample, number_of_rows, number_of_head):
     """
     Calculates the Shapley values of the model using KernelExplainer (for non-tree models like SVR).
     """
-    print("🔍 Starting SHAP for " + str(number_of_rows) + " rows...")
+    print(" Starting SHAP for " + str(number_of_rows) + " rows...")
 
     # Scale sample
     X_scaled = scaler.transform(X_sample)
@@ -135,6 +135,6 @@ def run_svr_gridsearch_and_shap(df, target_column, test_size=0.2, random_state=4
     X_sample = X_test.iloc[:shap_rows]
     shap_results = calculate_shap_svr(best_model, scaler, X_sample, shap_rows, number_header_rows)
 
-    print(f"\n✅ Best Parameters: {grid_search.best_params_}")
+    print(f"\n Best Parameters: {grid_search.best_params_}")
 
     return best_model, shap_results

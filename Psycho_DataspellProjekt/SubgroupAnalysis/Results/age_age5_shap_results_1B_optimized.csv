@@ -1,0 +1,161 @@
+Questions,Value,Direction
+Deprivation index: No. of items hhold can't afford,0.1967199,-0.0024085825
+Quality of health services?,0.14719354,0.01239648
+How much trust the police?,0.13974245,-0.0043795058
+I generally feel that what I do in life is worthwhile,0.10146703,-0.013291922
+Health condition,0.08839225,-0.005097988
+I feel I am free to decide how to live my life,0.07673228,0.019664507
+I am optimistic about the future,0.076299414,0.0045993393
+How frequently take part in sports or exercise?,0.07278967,-0.024537731
+A person to get support from when feeling depressed,0.061222512,-6.8598994e-05
+"Can afford to buy new, rather than second-hand, clothes?",0.06009373,0.0010857673
+No. of problems with accommodation,0.045830343,0.004477031
+The value of what I do is not recognised by others?,0.04274019,0.008125952
+I or someone else in household used long term care in 12 months,0.042013563,0.0021656703
+Can't find the way because life has become so complicated?,0.04041437,0.014003456
+"Utility bills, such as electricity, water, gas",0.039359305,0.0051028132
+Country_UK,0.038741373,0.010969062
+Can most people be trusted?,0.036817074,-0.0049105566
+Volunteering frequency,0.034334667,-0.00035999788
+Personal financial situation,0.033170536,0.0021663904
+Quality of education system?,0.0331051,-0.00035705417
+Phone/internet contact with neighbours,0.03276576,0.0020146177
+Country_France,0.03221243,0.006571904
+Quality of state pension system?,0.030656483,0.005020483
+Quality of child care services?,0.030602554,0.00907593
+How frequently attend religious services?,0.029572167,-0.000105420375
+Difficult to see a doctor because of delay in getting appointment?,0.02945334,-0.00056967785
+Education completed,0.028347991,0.0053324387
+Direct contact with neighbours,0.027952015,0.0034089633
+Feel close to people in the area where I live,0.027109884,0.00131065
+How much tension between different racial/ethnic groups?,0.024967453,-0.004905852
+Financial situation of your household compared to 12 months ago?,0.024795026,-0.0020949244
+Nobody used long term care in 12 months,0.023850134,7.346991e-05
+Country_Italy,0.023538731,-0.0036974694
+Phone/internet contact with other relatives,0.022589289,0.002533438
+Tenure,0.02226709,-0.00277111
+The share of housework you do is?,0.020704474,-0.0061668935
+Difficult to see a doctor because of distance?,0.020311873,0.00037249207
+How frequently participate in social activities?,0.019779703,0.0031824433
+A person to get support from when looking for a job,0.01961108,0.0060817343
+Neighbourhood problems - traffic,0.01953854,0.0014994778
+How much trust the press?,0.018164214,0.0016528461
+How much tension between groups with different sexual orientation?,0.018071195,-0.002184194
+How often care for elderly or disabled relatives?,0.017744407,0.001505519
+Quality of long term care services?,0.017643034,0.0045870612
+Household financial expectations for th 12 months?,0.017462136,0.0029273075
+Can afford a meal with meat/chicken/fish every second day?,0.01714602,-0.00081386266
+Direct contact with other relatives,0.016848074,-0.0018040866
+Neighbourhood problems - noise,0.016793316,-0.0015016707
+A person to get advice from about a personal/family matter,0.016681502,-0.002806354
+Phone/internet contact with children,0.016576646,0.00094139844
+Access to public transport?,0.016434288,-0.004831411
+Quality of social/municipal housing?,0.016401816,0.0011041391
+How much trust the local authorities?,0.016216762,0.012101171
+How much tension between different religious groups?,0.015925387,-0.001270758
+Income quartiles,0.015868774,0.0050014667
+Neighbourhood problems - litter or rubbish,0.015463443,0.0016414936
+No. of children,0.015218805,0.0028362274
+How much tension between Poor and Rich?,0.015189046,-0.0018362859
+How much trust the government?,0.014938159,-0.0007821744
+No. of rooms in accommodation,0.014638917,0.0019420154
+Quality of public transport?,0.014349913,0.0027915481
+Can afford to have friends or family for a drink/meal at least once a month?,0.013726952,0.0046801907
+How much trust the parliament?,0.013219035,0.0017190224
+Feel left out of sociey?,0.012416293,-0.0013479843
+Country_Germany,0.012358052,-0.0028768952
+Chronic health problems?,0.012354882,0.0032526709
+Household structure,0.01224518,-0.0022927888
+How much trust the legal system?,0.012124052,0.0008886654
+A person to get support from to raise emergency money,0.011851358,-1.0637887e-05
+Household size,0.01099135,0.0031400258
+People look down on me because of my job situation or income?,0.010886762,-0.0014571208
+Access to postal services?,0.010732496,0.0012749387
+How frequently use the Internet other than for work?,0.0106079,-0.000927751
+How often cook and doing housework?,0.010378467,-0.0026229417
+How many hours per week would you prefer to work at present?,0.010368078,-0.00021258583
+Can afford to pay for a week's annual holiday away?,0.010309319,0.0033808658
+Direct contact with parents,0.009978514,-0.0009652044
+Rural/urban living,0.009764475,-0.0022952447
+Difficult to see a doctor because of cost?,0.008772763,-0.00012704266
+Difficult to see a doctor because of waiting time?,0.008377772,-0.0015867029
+How much tension between Old and Young people?,0.0082454095,0.001650173
+Country_Czech Republic,0.008053049,0.00034205095
+Problems with accommodation - space,0.007975264,-0.00010025447
+Household able to make ends meet?,0.007957257,0.00050872617
+How often care for your children?,0.007770547,-0.00083940575
+I seldom have time to do the things I really enjoy,0.007544202,-0.0016012454
+Problems with accommodation - no outside space,0.0073189572,0.00255326
+Neighbourhood problems - air quality,0.0072157397,0.00040074746
+How much tension between Management and Workers?,0.007129869,2.9739358e-05
+How much tension between Men and Women?,0.0068985694,0.0002892115
+Direct contact with children,0.0067366427,0.0011759899
+Country_Spain,0.006403832,0.002377026
+Country_Poland,0.0059770737,-0.0013055558
+"Neighbourhood problems - crime, violence or vandalism",0.0059464993,-0.0017657968
+As much time as would like with family members?,0.0059013925,0.0017882094
+Access to banking services?,0.005708517,0.000996131
+Access to recreational or green areas?,0.005556332,0.0015835667
+Problems with accommodation - damp or leaks,0.00440468,-0.0006796825
+As much time as would like on voluntary work?,0.004253308,-0.00037843935
+As much time as would like with others (not family)?,0.0040505077,0.0001078643
+Gender,0.004034968,0.0003965773
+Country group,0.0039521796,-0.0013291981
+Someone close outside household used long term care in 12 months,0.0038944252,-0.0007200106
+Marital status,0.003824157,0.0001750466
+Phone/internet contact with parents,0.003791765,-0.0005706901
+Country_Sweden,0.0036737877,0.0019862805
+Difficult to see a doctor because of lack of time?,0.003552418,-0.000991037
+Likelihood of leaving accom within 6 months,0.0035201085,0.000114953946
+Country_Croatia,0.0034448407,0.0012338513
+"Access to cinema, theatre and cultural centre?",0.0032291396,-0.0010973631
+Employment - 7 groups,0.0031063284,-0.00091821357
+DV: Rural/urban living,0.0030551045,-0.0005185677
+Child care used in 12 months - refusal,0.0029237838,0.0029237838
+Neighbourhood problems - quality of drinking water,0.0028198585,-0.00019952658
+Education - 3 groups,0.0027296208,-0.0001670046
+As much time as would like on own hobbies/interests?,0.0026754064,-0.0004897633
+Household size - over 18,0.0024846462,0.00069781113
+A person to get support from to help around house ,0.0020175104,-0.00018063586
+Citizenship - Country,0.0016558304,0.0002743437
+Can afford to keep home adequately warm?,0.0015427773,-0.0004389157
+Country_Turkey,0.0015048446,0.0007559329
+Nobody used child care in 12 months,0.0013600874,6.0532402e-05
+Country_Estonia,0.0012661463,0.000812071
+Country_Macedonia (FYROM),0.0011367264,-0.00039167135
+Country_Denmark,0.0010010746,-0.00056273036
+Problems with accommodation - no toilet,0.0009879497,0.00035438963
+Country_Greece,0.0009317151,-0.0006033626
+Payments for informal loans from friends/relatives,0.00092154526,-8.065281e-05
+Payments for consumer loans/credit cards,0.0008954466,-0.00058372476
+Country_Ireland,0.00088694383,-6.22654e-05
+Country_Serbia,0.00078451575,0.00078451575
+Can afford to replace any worn-out furniture?,0.00070121925,-0.00013033081
+Country_Latvia,0.0006994066,0.00026639376
+Problems with accommodation - rot in windows etc.,0.00036626201,-0.000105299754
+Country_Luxembourg,0.00033753872,0.00020474293
+Child care used in 12 months - don't know,0.00022315508,-0.00022315508
+Someone close outside household used child care in 12 months,0.000110013156,4.8962258e-05
+Citizenship - Another EU member,0.0,0.0
+Citizenship - A non-EU country,0.0,0.0
+Age,0.0,0.0
+Long term care used in 12 months - refusal,0.0,0.0
+I or someone else in household used child care in 12 months,0.0,0.0
+Long term care used in 12 months - don't know,0.0,0.0
+Problems with accommodation - no bath/shower,0.0,0.0
+Country_Belgium,0.0,0.0
+Rent/mortgage payments for accommodation,0.0,0.0
+Country_Kosovo,0.0,0.0
+Country_Iceland,0.0,0.0
+Country_Cyprus,0.0,0.0
+Country_Bulgaria,0.0,0.0
+Country_Hungary,0.0,0.0
+Country_Finland,0.0,0.0
+Country_Portugal,0.0,0.0
+Country_Netherlands,0.0,0.0
+Country_Montenegro,0.0,0.0
+Country_Malta,0.0,0.0
+Country_Lithuania,0.0,0.0
+Country_Slovenia,0.0,0.0
+Country_Romania,0.0,0.0
+Country_Slovakia,0.0,0.0

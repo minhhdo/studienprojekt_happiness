@@ -402,3 +402,28 @@ def loose_question_filtering(input_dataframe):
 
     print(filtered_df.shape)
     return filtered_df
+
+columns_to_remove = [
+     'How satisfied with present standard of living?',
+     'How satisfied with family life?',
+     'How satisfied with social life?',
+     'How satisfied with health?',
+     'How satisfied with economic situation in the country?',
+     'How satisfied with accommodation?',
+     'How satisfied with education?'
+]
+
+columns_to_remove_extended = [
+     'How satisfied with present standard of living?',
+     'How satisfied with family life?',
+     'How satisfied with social life?',
+     'How satisfied with health?',
+     'How satisfied with economic situation in the country?',
+     'How satisfied with accommodation?',
+     'How satisfied with education?',
+    'Can\'t find the way because life has become so complicated?',
+    'I feel I am free to decide how to live my life',
+    'I generally feel that what I do in life is worthwhile',
+    'I am optimistic about the future',
+    'The value of what I do is not recognised by others?',
+]

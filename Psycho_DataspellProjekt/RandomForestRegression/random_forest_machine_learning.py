@@ -32,8 +32,8 @@ def evaluate_model(model, X_test, y_test):
     y_pred = model.predict(X_test)
     rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     r2 = r2_score(y_test, y_pred)
-    print(f"✅ RMSE: {rmse:.4f}")
-    print(f"✅ R²: {r2:.4f}")
+    print(f" RMSE: {rmse:.4f}")
+    print(f" R²: {r2:.4f}")
     return rmse, r2
 
 def calculate_shap(model, X_sample, number_of_rows, number_of_head):
@@ -44,7 +44,7 @@ def calculate_shap(model, X_sample, number_of_rows, number_of_head):
     explainer = shap.TreeExplainer(model)
 
     # Calculate Shaps with loading animation
-    print("🔍 Starting SHAP  for " + str(number_of_rows) + " rows...")
+    print("Starting SHAP  for " + str(number_of_rows) + " rows...")
     shap_values_list = []
 
     for i in tqdm(range(len(X_sample))):
@@ -110,12 +110,12 @@ def run_rf_gridsearch_and_shap(df, target_column, test_size=0.2, random_state=42
     # Evaluate
     best_model = grid_search.best_estimator_
     y_pred = best_model.predict(X_test)
-    rmse = mean_squared_error(y_test, y_pred, squared=False)
+    rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     r2 = r2_score(y_test, y_pred)
 
-    print(f"\n✅ Best Parameters: {grid_search.best_params_}")
-    print(f"✅ Test RMSE: {rmse:.4f}")
-    print(f"✅ Test R²: {r2:.4f}")
+    print(f"\n Best Parameters: {grid_search.best_params_}")
+    print(f" Test RMSE: {rmse:.4f}")
+    print(f" Test R²: {r2:.4f}")
 
     # SHAP only for a sample of the data
     X_sample = X_test.iloc[:shap_rows]
