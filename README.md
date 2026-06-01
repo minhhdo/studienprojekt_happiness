@@ -50,7 +50,7 @@ Each model was estimated in two configurations:
 Model performance was evaluated using:
 
 - RMSE
-- R²
+- R2
 
 ## SHAP Analysis
 
@@ -97,24 +97,22 @@ The subgroup analyses used the same treatment variables and confounder sets as t
 
 ```text
 .
-├── Causal/                         # DoWhy causal analysis notebooks and results
-│   └── Results/                    # ATE tables and refutation test results
-│
-├── Data/                           # Raw and preprocessed EQLS data
-│
-├── Random Forest Regression/       # Random Forest notebook and results
-│   └── Results/                    # Model performance and SHAP outputs
-│
-├── SVR/                            # Support Vector Regression notebook and results
-│   └── Results/                    # Model performance and SHAP outputs
-│
-├── XGBoost/                        # XGBoost notebook and results
-│   └── Results/                    # Model performance and SHAP outputs
-│
-├── Subgroup/                       # Subgroup analysis notebooks
-│   └── Results/                    # Subgroup-specific results
-│
-├── Preprocessing.ipynb             # Data preprocessing workflow
-├── question_filtering.py           # Script for filtering relevant survey questions
-├── requirements.txt                # Python dependencies
-└── README.md
+|-- Psycho_DataspellProjekt/          # Main analysis project
+|   |-- data/                         # Raw, decoded, filtered, and cleaned EQLS data
+|   |-- CausalAnalysis/               # DoWhy causal analysis notebooks
+|   |   |-- Results/                  # ATE tables and refutation test results
+|   |-- RandomForestRegression/       # Random Forest scripts, notebooks, and SHAP results
+|   |   |-- Results/                  # Random Forest SHAP outputs
+|   |-- SVR/                          # Support Vector Regression scripts, notebooks, and SHAP results
+|   |   |-- Results/                  # SVR SHAP outputs
+|   |-- XGBoost/                      # XGBoost scripts, notebooks, and SHAP results
+|   |   |-- Results/                  # XGBoost SHAP outputs
+|   |-- SubgroupAnalysis/             # Gender, age, income, and country subgroup analyses
+|   |   |-- Results/                  # Subgroup-specific SHAP and DoWhy outputs
+|   |-- pre_processing.ipynb          # Data preprocessing workflow
+|   `-- question_filtering.py         # Script for filtering survey questions
+|-- docs/                             # Additional EQLS data and concordance files
+|-- backUpDaten/                      # Backup copies of EQLS data files
+|-- Quellen/                          # Source material and references
+`-- README.md
+```
